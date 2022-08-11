@@ -5,20 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Push Supplements</title>
-    <style>
-        @media screen and (min-width: 480px) {
-  body {
-    background-color: rgb(194, 28, 66);
-  }
-}
 
-    .flex-container {
-    display: flex;
-    height: 200px;
-    align-content: space-between;
-    }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -31,23 +19,17 @@
         </nav>
     </header>
 
+    <img class="banner" src="/img/PS02.jpg" alt="banner">
+
     <form id="form"  action="https://www.freecodecamp.com/email-submit">
-        <input 
-        id="email" 
-        type="email" 
-        name="email"
-        placeholder="youremail@blank.com" 
-        required>
+        <input id="email" type="email" name="email" placeholder="youre mail@blank.com" required>
 
         <button id="submit" type="submit">Submit</button>
     </form>
 
-    <video id="video" width="320" height="240" controls>
+    <div id="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/QffLlKPk4iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </video>
-
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
-    </script>
+    </div>
 
 </body>
 </html>
