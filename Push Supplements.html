@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Supplements</title>
+    <style>
+        @media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(194, 28, 66);
+  }
+}
+
+    .flex-container {
+    display: flex;
+    height: 200px;
+    align-content: space-between;
+    }
+
+    </style>
+</head>
+<body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+
+    <header id="header">
+        <img id="header-img" src="/img/PS01.jpg" alt="Logo">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#header">Header</a>
+            <a class="nav-link" href="#video">Video</a>
+            <a class="nav-link" href="#form">Email</a>
+        </nav>
+    </header>
+
+        <video id="video" width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+        <form id="form"  action="https://www.freecodecamp.com/email-submit">
+        <input 
+        id="email" 
+        type="email" 
+        name="email"
+        placeholder="youremail@blank.com" 
+        required>
+
+        <button id="submit" type="submit">Submit</button>
+        </form>
+
+</body>
+</html>
