@@ -42,3 +42,18 @@ form {
     align-items: center;
     padding-top: 5rem;
 }
+
+.supplements {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.products {
+    max-width: 300px;
+}
+
+.products img {
+    width: 100%;
+}
